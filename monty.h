@@ -98,8 +98,8 @@ void rotr(stack_t **stack, unsigned int line_count);
 
 void opcode(stack_t **stack, char *str, unsigned int line_cnt);
 
-int is_digit(char *string);
-int isnumber(char *str);
+int is_digit(int string);
+int isnumber(int str);
 int isascii(int stack);
 
 #endif
